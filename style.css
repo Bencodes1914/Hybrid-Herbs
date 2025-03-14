@@ -51,13 +51,11 @@
 }
 
 @media screen and (max-width: 768px) {
- /* Show mobile menu icon */
  .menu-toggle {
    display: block;
-   order: 1;
+   order: 3;
  }
  
- /* Reorder elements */
  .product-header {
    flex-wrap: wrap;
  }
@@ -71,7 +69,6 @@
    order: 3;
  }
  
- /* Hide navigation menu by default */
  .nav-menu {
    display: none;
    position: absolute;
@@ -95,10 +92,9 @@
    border-bottom: 1px solid #eee;
    text-align: center;
  }
- 
- /* Adjust cart icons section */
+
  .country-selector {
-   display: none; /* Hide country selector on mobile */
+   display: none; 
  }
 }
 
