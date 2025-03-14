@@ -476,6 +476,44 @@
  margin-bottom: 40px;
 }
 
+@media screen and (max-width: 768px) {
+ .stockist-section {
+   gap: 25px;
+   padding: 25px 15px;
+   flex-wrap: wrap;
+ }
+ 
+ .stockist-badge {
+   gap: 10px;
+ }
+ 
+ .stockist-text {
+   font-size: 16px;
+ }
+ 
+ .stockist-text span {
+   font-size: 12px;
+ }
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 480px) {
+ .stockist-section {
+   flex-direction: column;
+   gap: 20px;
+   padding: 20px 10px;
+ }
+ 
+ .stockist-badge {
+   width: 100%;
+   justify-content: center;
+ }
+ 
+ .stockist-badge img {
+   height: 35px;
+ }
+}
+
 .stockist-badge {
  display: flex;
  align-items: center;
