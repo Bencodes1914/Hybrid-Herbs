@@ -49,6 +49,11 @@ svg{
    height: 15px;
 }
 
+.action-button{
+   display: flex;
+   flex-direction: row;
+}
+
 @media screen and (max-width: 1024px) {
  .nav-menu li {
    margin: 0 10px;
