@@ -44,6 +44,11 @@
   font-size: 24px;
 }
 
+svg{
+   width: 15px;
+   height: 15px;
+}
+
 @media screen and (max-width: 1024px) {
  .nav-menu li {
    margin: 0 10px;
