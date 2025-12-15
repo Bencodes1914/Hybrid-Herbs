@@ -49,11 +49,6 @@ svg{
    height: 15px;
 }
 
-.action-button{
-   display: flex;
-   flex-direction: row;
-}
-
 @media screen and (max-width: 1024px) {
  .nav-menu li {
    margin: 0 10px;
@@ -284,7 +279,7 @@ svg{
  border: 1px solid #ddd;
  padding: 8px 15px;
  border-radius: 3px;
- font-size: 10px;
+ font-size: 12px;
  cursor: pointer;
  margin-right: 5px;
  margin-bottom: 4px;
@@ -296,7 +291,7 @@ svg{
  border: none;
  padding: 8px 15px;
  border-radius: 3px;
- font-size: 10px;
+ font-size: 12px;
  cursor: pointer;
 }
 
